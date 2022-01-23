@@ -1,0 +1,435 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Noto+Sans&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     box-sizing: border-box;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Montserrat';
+ }
+
+ p {
+     font-family: 'Noto Sans',
+         sans-serif;
+ }
+
+ /*  */
+ /* header Section start */
+ .header_section {
+    height: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("img/header_bg_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+
+ /* NavBar start */
+ .navbar-expand-lg .navbar-nav .nav-link {
+     padding-right: 0.5rem;
+     padding-left: 2.5rem;
+     color: white;
+     font-weight: bold;
+ }
+
+ /* NavBar End */
+ .header_con_text{
+     padding: 90px 0;
+ }
+ .header_con_text h1 {
+     margin-top: 130px;
+     color: white;
+     font-size: 50px;
+     font-weight: 700;
+     padding: 0px 229px;
+     text-transform: uppercase;
+ }
+
+ .divider {
+     margin: 50px;
+     width: 120px;
+     height: 2px;
+     background-color: #35c2f8;
+     display: inline-block;
+ }
+
+.header_con_text p {
+    color: white;
+    font-size: 20px;
+    padding: 20px 303px;
+}
+
+ /* header Section End */
+ /* Core Services Section */
+ .service_part {
+     padding: 60px 0px;
+ }
+
+ .service_big_con h1 {
+     font-size: 40px;
+     font-weight: bold;
+     color: black;
+     text-transform: uppercase;
+
+ }
+
+ .divider1 {
+     margin: 0px;
+     width: 120px;
+     height: 2px;
+     background-color: #35c2f8;
+     display: inline-block;
+ }
+
+ /*  */
+ .service_text_con h5 {
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+ /* Core Services Section */
+ /* Other Expertise Section Start */
+
+ .expertise_part {
+     background: #f7f7f7;
+ }
+
+ .expertise_con_text {
+     max-width: 800px;
+     padding-left: 100px;
+ }
+
+ .expertise_con h1 {
+     font-size: 40px;
+     font-weight: bold;
+ }
+
+ .expertise_con p {
+     color: #777777;
+ }
+
+ .expertise_con_row {
+     max-width: 800px;
+     padding-left: 100px;
+ }
+
+ .experties_text h6 {
+     font-weight: bold;
+     
+ }
+
+ .experties_text p {
+     font-size: 12px;
+
+ }
+
+ .expert_p p {
+     max-width: 312px;
+ }
+
+ .col-1 {
+     flex: 1 0 auto;
+     width: 0.333%;
+ }
+
+ .expertise_button {
+     height: 45px;
+     width: 150px;
+     border: 1px solid #cbeefa;
+     background-color: white;
+     border-top-left-radius: 25px;
+     border-bottom-left-radius: 25px;
+     border-top-right-radius: 25px;
+     border-bottom-right-radius: 25px;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ 
+ /* Other Expertise Section End */
+ /* Amazing Portfolio Start */
+
+ .A_portfolio_part {
+
+     padding: 20px 0;
+     background-color: white;
+ }
+
+ .A_P_bgImg_part {
+     padding: 50px 0px;
+     height: 100vh;
+     background-image: url("img/portfolio_img.png");
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ .A_P_main_con {
+     max-width: 800px;
+     padding-left: 100px;
+ }
+
+ .A_P_Head_con h1 {
+     padding: 20px 0;
+     font-size: 40px;
+     font-weight: bold;
+ }
+
+ .A_P_Head_con p {
+     color: #777777;
+ }
+
+ .A_P_Text_con h6 {
+     font-size: 16px;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ .A_P_Text_con p {
+     color: #777777;
+
+ }
+
+ /* Amazing Portfolio End */
+ /* About Us Start */
+ .about_part {
+     padding: 80px 0px;
+ }
+
+ .abour_head_con h2 {
+     font-size: 40px;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ .divider1 {
+     width: 120px;
+     height: 2px;
+     background-color: #35c2f8;
+     display: inline-block;
+ }
+
+ /*  */
+ .about_text_left {
+     text-align: right;
+ }
+
+ .about_text_left h6 {
+     font-weight: bold;
+
+ }
+
+ .about_text_left p {
+     font-size: 13px;
+     color: #777777;
+ }
+
+ /*  */
+ .about_text_right {
+     text-align: left;
+ }
+
+ .about_text_right h6 {
+     font-weight: bold;
+
+ }
+
+ .about_text_right p {
+     font-size: 13px;
+     color: #777777;
+ }
+
+ /*  */
+ .about_img_con {
+     position: relative;
+ }
+
+ .divider2 {
+     width: 4px;
+     height: 120px;
+     background-color: #f1f1f1;
+     display: block;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     bottom: -113px;
+     left: 176px;
+     z-index: -1;
+
+ }
+
+ /* .about_box{
+    position: absolute;
+    height: 182px;
+    width: 182px;
+    border-radius: 50%;
+    background: #35c2f8;
+    text-align: center;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    border: 8px solid #f1f1f1;
+} */
+ /* .about_box h6{
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    line-break: auto;
+    font-size: 16px;
+    top: 30px;
+    left: 25px;
+    transform: translate(0%);
+} */
+
+ /* About US End */
+ /* Awesome Team Start */
+ .a_team_part {
+     background: #f7f7f7;
+     padding: 60px 0px;
+ }
+
+ .a_team_head_con h1 {
+     font-size: 40px;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ .divider3 {
+     width: 120px;
+     height: 2px;
+     background-color: #35c2f8;
+     display: inline-block;
+ }
+
+ /*  */
+
+ .team_box {
+     height: 150px;
+     width: 150px;
+     background-color: #000;
+     display: inline-block;
+     border-radius: 50%;
+
+ }
+
+ .team_mamber_con h5 {
+     padding: 10px 0;
+     font-weight: bold;
+ }
+
+ .team_mamber_con h6 {
+     color: #777777;
+ }
+
+ .team_icon {
+     gap: 15px;
+ }
+
+ .team_overlay i {
+     width: 35px;
+     height: 35px;
+     background-color: #000;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     color: white;
+ }
+
+ .team_con p {
+     padding: 0px 225px;
+     color: #777777;
+ }
+ .team_mamber_con{
+     padding: 30px 0;
+ }
+
+ /* Awesome Team End */
+ /* contact Section */
+ .contact_part {
+     padding: 50px 0px;
+     background: #111111;
+
+ }
+
+ .contact_head_con h2 {
+     color: white;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ .contact_head_con p {
+     color: white;
+     padding: 15px 0px;
+     max-width: 350px;
+     font-size: 14px;
+ }
+
+ /*  */
+ .contact_icon i {
+     color: white;
+     font-size: 20px;
+ }
+
+ .contact_icon p {
+     color: #ffff;
+ }
+
+ /* contact_from */
+ .form-control {
+     margin: 12px 0px;
+     display: block;
+     width: 100%;
+     padding: .375rem .75rem;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 1.8;
+     color: #c4c4c4;
+     background-color: #ffff;
+     border-radius: .2rem;
+ }
+
+ .send_button {
+     height: 45px;
+     width: 180px;
+     border: none;
+     color: white;
+     background-color: #35c1f7;
+     border-top-left-radius: 25px;
+     border-bottom-left-radius: 25px;
+     border-top-right-radius: 25px;
+     border-bottom-right-radius: 25px;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+
+ .send_button:hover {
+     background-color: #01b5fc;
+     box-shadow: 0 0 4px #35c2f8;
+ }
+
+ /* contact SectionEnd */
+ /* Footer */
+ .footer_part {
+     padding: 0px 0px;
+     background: #111111;
+
+ }
+
+ .boder_button {
+     border: 1px solid #fcfcfc77;
+ }
+
+ /* Footer */

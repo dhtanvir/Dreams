@@ -1,0 +1,112 @@
+@media (max-width:1400px) {
+    .divider2 {
+        left: 209px;
+    }
+}
+@media (max-width:1200px) {
+    .divider2 {
+        left: 176px;
+    }
+}
+
+@media (max-width:992px) {
+    .header_con_text h1 {
+        padding: 0px 120px;
+    }
+    .header_con_text p {
+        padding: 20px 250px;
+    }
+    .service_contant {
+        padding: 20px 10px;
+    }
+    .expertise_part{
+        padding: 65px 0;
+    }
+    .expertise_img_con {
+        position: absolute;
+    }
+   .divider2 {
+       left: 150px;
+   }
+   
+}
+
+
+@media (max-width:768px) {
+     .header_con_text h1 {
+         padding: 0px 60px;
+     }
+     .header_con_text p {
+         padding: 20px 150px;
+     }
+     .service_contant{
+         padding: 20px 10px;
+     }
+     .expertise_con_text {
+         
+         padding-left: 50px;
+     }
+     .expertise_con_row{
+         padding-left: 50px;
+     }
+     .expertise_img_con {
+         display: none;
+     }
+     .expertise_part{
+         padding: 30px 0;
+     }
+     .A_P_Img_com{
+         display: none;
+     }
+     .portfolio_img_con{
+         text-align: center; 
+     }
+    .divider2 {
+        left: 109px;
+    }
+     .team_con p {
+         padding: 0px 115px;
+         
+     }
+    }
+
+
+
+@media (max-width:576px) {
+      .header_con_text h1 {
+          padding: 0px 10px;
+          font-size: 40px;
+      }
+       .header_con_text p {
+           padding: 20px 50px;
+       }
+       .expertise_con_text {
+
+           padding-left: 20px;
+       }
+
+       .expertise_con_row {
+           padding-left: 20px;
+       }
+       .expertise_img_con {
+           display: none;
+       }
+       .divider2 {
+           left: 89px;
+       }
+        .team_con p {
+            padding: 0px 50px;
+
+        }
+} 
+
+
+
+
+
+
+
+
+
+
+
